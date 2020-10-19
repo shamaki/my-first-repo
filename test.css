@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Custom Properties, update these for your own */
+:root {
+    --ff-primary: 'Crimson Pro', sans-serif ;
+    --ff-secondary: 'Crimson Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;   
+    
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em -0.125em 0.25em rgba(0,0,0,.15);
+
+}
+@media (min-width: 800px){
+       :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;  
+       }
+}
+h1{
+    font-size: var(--fs-h1);
+    
+}
+.header{
+    height: 170px;
+    width: 100%;
+    background-color: white;
+}
+.fas{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+.search-box{
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.search-txt{
+    padding-left: 15px;
+}
+
+
+/* General Styles */
+
+/*body {
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}*/
+
